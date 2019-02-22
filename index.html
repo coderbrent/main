@@ -9,18 +9,34 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Nav</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+        </div>
+    </nav>
+
+
+
     <div class="jumbotron">
-      <h1>Headline</h1>
-        <h2 class="top_h2" style="font-weight: 700">A Nice Looking Subheader</h2>
-          <p class="top_p">
-            Lorem ipsum dolor sit. ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>
-          <p class="top_p">
-            Lorem ipsum dolor sit amet.
-          </p>
-        <button class="btn btn-danger" data-toggle="modal" data-target="#exampleModalScrollable"><i class="far fa-id-badge"></i>&nbsp;&nbsp;Learn More</button>
-    
-        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="back_panel">
+        <h1>Headline</h1>
+          <h2 class="top_h2" style="font-weight: 700">A Nice Looking Subheader</h2>
+            <p>
+              Lorem ipsum dolor sit. ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+               <button class="btn btn-danger" data-toggle="modal" data-target="#exampleModalScrollable"><i class="far fa-id-badge"></i>&nbsp;&nbsp;Learn More</button>
+      
+            <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -30,19 +46,19 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      Login
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                       <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
                   </div>
-                </div>
-              </div>
-
+                 </div>
+               </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
             <div class="row">
                 <div class="col-sm">
                   <h5>Column Title</h5>

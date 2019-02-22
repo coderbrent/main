@@ -1,11 +1,12 @@
 p {
     font-family: "Noto Sans", "sans serif";
     color: whitesmoke;
+    font-size: .85em;
 }
 
 h1 {
     font-family: "Playfair Display", "serif";
-    color: #222;
+    color: whitesmoke;
     font-size: 7em;
     font-weight: 700;
 }
@@ -63,4 +64,25 @@ html {
 .top_p {
     padding-bottom: 10px;
     word-wrap: normal;
+}
+
+.btn {
+    background-color: indianred;
+}
+
+.jumbotron {
+    background-image: url("/Users/brentabruzese/Downloads/ocean_background/ocean background.svg");
+    border-radius: 0px;
+}
+
+.back_panel {
+    background-color: black;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    padding: 15px;
+}
+
+.bg-light {
+    background-color: indianred;
 }
